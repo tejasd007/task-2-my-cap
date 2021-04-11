@@ -1,0 +1,13 @@
+list1=[]
+
+n=int(input("length of list:"))
+
+for i in range(n):
+    elements = int(input("Enters the element:"))
+    list1.append(elements)
+
+print("list elements are:", list1)
+
+for a in list1:
+    if a>0:
+        print(a)
